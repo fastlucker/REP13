@@ -1,28 +1,28 @@
 {
   "rewrites": [
     {
-      "source": "/github/(.*)",
-      "destination": "https://github.com/$1"
+      "source": "/github(/.*)?",
+      "destination": "https://github.com$1"
     },
     {
-      "source": "/githubapi/(.*)",
-      "destination": "https://api.github.com/$1"
+      "source": "/githubapi(/.*)?",
+      "destination": "https://api.github.com$1"
     },
     {
-      "source": "/googleauth/(.*)",
-      "destination": "https://oauth2.googleapis.com/$1"
+      "source": "/googleauth(/.*)?",
+      "destination": "https://oauth2.googleapis.com$1"
     },
     {
-      "source": "/openai/(.*)",
-      "destination": "https://api.openai.com/$1"
+      "source": "/openai(/.*)?",
+      "destination": "https://api.openai.com$1"
     },
     {
-      "source": "/claude/(.*)",
-      "destination": "https://api.anthropic.com/$1"
+      "source": "/claude(/.*)?",
+      "destination": "https://api.anthropic.com$1"
     },
     {
-      "source": "/googleapi/(.*)",
-      "destination": "https://www.googleapis.com/$1"
+      "source": "/googleapi(/.*)?",
+      "destination": "https://www.googleapis.com$1"
     }
   ]
 }
